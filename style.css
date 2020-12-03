@@ -1,0 +1,26 @@
+#app {
+    background:linear-gradient(white,lightcyan);
+}
+#games {
+    background:linear-gradient(lightcyan,aqua);
+}
+#chat_bot {
+    background:linear-gradient(aqua,lightcyan);
+}
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    letter-spacing: 2px;
+}
+body {
+    text-align: center;
+}
+img {
+    width: 60%;
+    transition:transform 2s;
+}
+img:hover {
+    transform: scale(0.9);
+}
